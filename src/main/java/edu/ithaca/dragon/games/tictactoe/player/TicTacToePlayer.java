@@ -14,4 +14,7 @@ public interface TicTacToePlayer {
      */
     public Pair<Integer, Integer> chooseSquare(TicTacToeBoard curBoard, char yourSymbol);
 
+    
+
+
 }
