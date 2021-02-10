@@ -7,7 +7,7 @@ import org.javatuples.Pair;
 import edu.ithaca.dragon.games.tictactoe.GameStatus;
 import edu.ithaca.dragon.games.tictactoe.board.TicTacToeBoard;
 
-public class RuledBasedAgentCristian implements TicTacToePlayer {
+public class RuleBasedAgentCristian implements TicTacToePlayer {
 
     @Override
     public Pair<Integer, Integer> chooseSquare(TicTacToeBoard curBoard, char yourSymbol) {
